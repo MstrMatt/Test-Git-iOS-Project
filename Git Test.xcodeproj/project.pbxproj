@@ -21,6 +21,7 @@
 		EE012E271906D4AA00220DDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE012E091906D4AA00220DDB /* UIKit.framework */; };
 		EE012E2F1906D4AA00220DDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE012E2D1906D4AA00220DDB /* InfoPlist.strings */; };
 		EE012E311906D4AA00220DDB /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE012E301906D4AA00220DDB /* Git_TestTests.m */; };
+		EE012E3C1906DBEF00220DDB /* MDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EE012E3B1906DBEF00220DDB /* MDTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EE012E2C1906D4AA00220DDB /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		EE012E2E1906D4AA00220DDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE012E301906D4AA00220DDB /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		EE012E3A1906DBEF00220DDB /* MDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTest.h; sourceTree = "<group>"; };
+		EE012E3B1906DBEF00220DDB /* MDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				EE012E171906D4AA00220DDB /* Main.storyboard */,
 				EE012E1A1906D4AA00220DDB /* MDViewController.h */,
 				EE012E1B1906D4AA00220DDB /* MDViewController.m */,
+				EE012E3A1906DBEF00220DDB /* MDTest.h */,
+				EE012E3B1906DBEF00220DDB /* MDTest.m */,
 				EE012E1D1906D4AA00220DDB /* Images.xcassets */,
 				EE012E0C1906D4AA00220DDB /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE012E3C1906DBEF00220DDB /* MDTest.m in Sources */,
 				EE012E121906D4AA00220DDB /* main.m in Sources */,
 				EE012E1C1906D4AA00220DDB /* MDViewController.m in Sources */,
 				EE012E161906D4AA00220DDB /* MDAppDelegate.m in Sources */,
